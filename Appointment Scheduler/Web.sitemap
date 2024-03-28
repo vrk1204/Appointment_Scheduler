@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home"  description="Home Page">
+        <siteMapNode url="addappointment.aspx" title="Add Appointment"  description="Adds a new appointment" />
+        <siteMapNode url="searchappointments.aspx" title="Search Appointments"  description="Searches appointments by text or title" />
+        <siteMapNode url="listappointmentsbydate.aspx" title="Appointments by Date"  description="Lists appointments by date" />
+        <siteMapNode url="allappointments.aspx" title="All Appointments"  description="Lists all appointments" />
+        <siteMapNode url="" title="User"  description="User Menu">
+           <siteMapNode url="changepassword.aspx" title="Change Password"  description="Allows user to change passwod" />
+           <siteMapNode url="listusers.aspx" title="List Users"  description="Provides list of users" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

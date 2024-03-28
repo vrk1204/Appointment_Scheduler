@@ -1,0 +1,35 @@
+Web based  Appointments Scheduler
+
+1. Registration
+2. Login 
+3. Change password
+4. Forgot Password
+5. Logout
+6. Adding appointment
+7. Updating appointment
+8. Delete appointment
+9. List of appointment based on date
+10. Search appointment
+
+
+Service to notify members regarding appointments.
+
+
+Tables
+-------
+users
+appointments
+  appid
+  userid
+  appdate
+  apptime
+  apptitle
+  apptext
+  notifybeforehours
+  addedon
+
+
+
+
+
+  

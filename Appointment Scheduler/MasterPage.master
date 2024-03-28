@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Appointments</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <h1>APPOINTMENTS</h1>
+    <div>
+       Welcome  <b><asp:LoginName ID="LoginName1" runat="server" /></b>
+       &nbsp;&nbsp;
+        [<asp:LoginStatus ID="LoginStatus1" runat="server" />]
+        &nbsp;&nbsp;
+        [<a href="changepassword.aspx">Change Password</a>]
+        &nbsp;&nbsp;
+        <span style="background-color:#eeeeee;width:200px"  >
+          <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+          </asp:SiteMapPath>
+        </span>
+    </div>
+    <table width="100%" height="500px">
+    <tr>
+    <td valign="top"  width="25%" style="background-color:white">
+        <asp:TreeView ID="TreeView1" runat="server" 
+        DataSourceID="SiteMapDataSource1">
+        </asp:TreeView>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </td>
+    <td valign="top">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    </table>
+   </form>
+</body>
+</html>

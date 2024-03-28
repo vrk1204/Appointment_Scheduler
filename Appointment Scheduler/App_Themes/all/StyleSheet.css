@@ -1,0 +1,35 @@
+﻿body
+{
+	background-color: #DdDdDd;
+	font-family: verdana;
+	font-size: 10pt;
+	margin:5px;
+}
+
+h1
+{
+	background-color: navy;
+	font-family: Arial;
+	font-size: 30pt;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 5pt;
+	margin:0px;
+}
+h2 
+{
+	font-family: Arial;
+	font-size: 14pt;
+	font-weight: bold;
+	color: black;
+	margin:0px;
+	
+}
+
+h3 
+{
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: bold;
+	color: red;
+}
